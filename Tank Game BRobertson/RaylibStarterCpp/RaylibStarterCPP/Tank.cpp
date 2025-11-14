@@ -155,3 +155,11 @@ std::vector<Bullet>& Tank::GetBullets()
 {
     return bullets;
 }
+
+// Expose current body rotation (degrees)
+float Tank::GetBodyRotation() const
+{
+    return bodyRotation;
+}
+
+

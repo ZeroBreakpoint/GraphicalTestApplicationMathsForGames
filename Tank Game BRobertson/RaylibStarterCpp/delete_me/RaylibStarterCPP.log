@@ -1,2 +1,6 @@
-﻿  main.cpp
+﻿  Bullet.cpp
+  main.cpp
+  Tank.cpp
+  Tracks.cpp
+  Generating Code...
   RaylibStarterCPP.vcxproj -> C:\GitHub\GraphicalTestApplicationMathsForGames\Tank Game BRobertson\RaylibStarterCpp\bin\Debug\RaylibStarterCPP_db.exe

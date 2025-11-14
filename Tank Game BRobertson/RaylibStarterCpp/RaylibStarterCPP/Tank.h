@@ -21,6 +21,8 @@ public:
     MathClasses::Vector3 GetPosition() const;
     Matrix3 GetTurretTransform() const;
     std::vector<Bullet>& GetBullets(); // Returns a reference to the bullets vector
+    // Expose current body rotation (degrees) so tracks can react to in-place turns
+    float GetBodyRotation() const;
 
 private:
     MathClasses::Vector3 position; // Tank's world position

@@ -119,11 +119,6 @@ namespace MathClasses
             return Vector3(x * scalar, y * scalar, z * scalar);
         }
 
-        // Scalar multiplication (friend, scalar first).
-        friend Vector3 operator*(float scalar, const Vector3& vec) {
-            return vec * scalar;
-        }
-
         // Dot product with another vector.
         float Dot(const Vector3& rhs) const
         {

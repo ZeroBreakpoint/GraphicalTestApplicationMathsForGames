@@ -188,11 +188,13 @@
     <ClCompile Include="Bullet.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="Tank.cpp" />
+    <ClCompile Include="Tracks.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Bullet.h" />
     <ClInclude Include="Matrix3.h" />
     <ClInclude Include="Tank.h" />
+    <ClInclude Include="Tracks.h" />
     <ClInclude Include="Vector3.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

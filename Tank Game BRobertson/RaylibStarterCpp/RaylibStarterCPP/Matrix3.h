@@ -46,7 +46,7 @@ namespace MathClasses
                 v[i] = arr[i];
         }
 
-        // Returns the identity matrix.
+		// Returns the identity matrix in row major.
         static Matrix3 MakeIdentity()
         {
             Matrix3 identity;
